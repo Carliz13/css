@@ -1,0 +1,171 @@
+img{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100px 100px 100px 100px;
+    margin: 2%;
+}
+
+.nombre{
+    font-size: 300%;
+}
+
+
+.contenedor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    line-height:1.8em;
+    display: flex;
+    width: 60%;
+
+}
+.parrafo1{
+    line-height:1.8em;
+}
+
+.parrafo2{
+    line-height:1.8em;
+}
+
+.ladoazul{
+    text-align: center;
+    color : white;
+    background-color: rgb(2, 2, 46);
+    width:25% ;
+}
+
+h3{
+    text-align: center;
+    font-size: small;
+}
+
+.letra2{
+
+    text-align: center;
+    background-color: rgb(2, 2, 46);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 40%;
+    
+}
+
+
+.ladoBlanco{
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    width:35%;
+    padding: 1%;
+  
+}
+
+
+
+.fa-solid {
+width: 10%;
+
+}
+
+.hobbies{
+
+    margin: 3%;
+}
+
+@media  screen and (max-width: 1200px ){
+    .ladoazul{
+      
+        width: 15% ;
+        padding: 0.5%;
+    }
+    .ladoBlanco{
+        
+        width:25%;
+        padding: 0.5%;
+      
+    }
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width: 720px ){
+    img{
+
+        height: 75px;
+        width: 75px;
+    
+    }
+    .nombre{
+        font-size: 200%;
+        color: rgb(2, 2, 59);
+        padding: 2%;
+    }
+    
+    
+    .contenedor{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        font-size: 30%;
+    
+    }
+
+    .ladoazul{
+      
+        width:28% ;
+    }
+    
+    h3{
+
+        font-size: 25%;
+    }
+    
+    .letra2{
+    
+        text-align: center;
+        font-size: 30%;
+        
+    }
+    .parrafo1{
+        text-align: justify;
+        line-height: 2em;
+    }
+    
+    .parrafo2{
+        text-align: justify;
+        line-height: 2em;
+    }
+    
+    
+    .ladoBlanco{
+        
+        width:40%;
+        padding: 0.5%;
+      
+    }
+   
+    
+    .hobbies{
+    
+        margin: 2%;
+    }
+    
+    .fa-solid {
+        width: 5%;
+        
+    }
+
+    }
